@@ -35,7 +35,7 @@ def screen_cards(card_path):
         {"role": "user", "content": "Please output the evaluation for this card."}
     ]
 
-    response = api.call(model="deepseek-r1", messages=messages)
+    response = api.call(model="deepseek", messages=messages)
     
     # parse the JSON block at the end
     match = re.search(r'```json\s*(.*?)\s*```', response, re.DOTALL | re.IGNORECASE)

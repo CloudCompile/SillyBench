@@ -4,7 +4,7 @@ import uuid
 import sys
 from utils.card_parser import parse_card
 
-BASE_DIR = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 CARDS_DIR = os.path.join(BASE_DIR, 'cards', 'approved')
 PROMPTS_DIR = os.path.join(BASE_DIR, 'prompts')
 

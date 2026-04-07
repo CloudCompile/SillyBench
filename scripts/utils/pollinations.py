@@ -3,14 +3,15 @@ import urllib.request
 import urllib.error
 
 class PollinationsAPI:
-    def __init__(self, api_key=None, base_url="https://text.pollinations.ai/openai"):
+    def __init__(self, api_key="sk_KqMTtO5Ax8A3UG5u72IANvoUd2OVl8jn", base_url="https://gen.pollinations.ai/v1/chat/completions"):
         self.api_key = api_key
         self.base_url = base_url
 
     def call(self, model, messages, temperature=0.7, max_tokens=2000):
         # For Pollinations, you typically do a POST to /openai
         headers = {
-            "Content-Type": "application/json"
+            "Content-Type": "application/json",
+            "User-Agent": "curl/8.5.0"
         }
         if self.api_key:
             headers["Authorization"] = f"Bearer {self.api_key}"
@@ -42,7 +43,8 @@ class OpenAICompatibleAPI:
     def call(self, model, messages, temperature=0.7, max_tokens=2000):
         headers = {
             "Content-Type": "application/json",
-            "Authorization": f"Bearer {self.api_key}"
+            "Authorization": f"Bearer {self.api_key}",
+            "User-Agent": "curl/8.5.0"
         }
 
         data = {

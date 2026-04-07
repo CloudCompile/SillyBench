@@ -1,0 +1,19 @@
+{
+  "generated_at": "2026-04-07T21:50:14.322612Z",
+  "total_runs": 1,
+  "models": [
+    {
+      "model": "glm",
+      "runs": 1,
+      "sfw_overall": 5.0,
+      "nsfw_overall": 5.0,
+      "combined_overall": 5.0,
+      "best_category": "N/A",
+      "worst_category": "N/A",
+      "most_common_flag": "None",
+      "run_ids": [
+        "run-fd97eb03"
+      ]
+    }
+  ]
+}

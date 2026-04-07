@@ -79,7 +79,7 @@ def run_bench(target_model="gpt-4o-mini", target_provider="openai", target_endpo
                 jp = jp.replace('{{FLAGS_JSON}}', flags_json)
                 
                 print(f"  -> Evaluating with DeepSeek Judge...")
-                judge_resp = judge_api.call(model="deepseek-r1", messages=[
+                judge_resp = judge_api.call(model="deepseek", messages=[
                     {"role": "system", "content": jp},
                     {"role": "user", "content": "Please output the evaluation."}
                 ])
@@ -126,7 +126,7 @@ def run_bench(target_model="gpt-4o-mini", target_provider="openai", target_endpo
         "run_id": run_id,
         "model": target_model,
         "model_provider": target_provider,
-        "judge_model": "deepseek-r1",
+        "judge_model": "deepseek",
         "judge_provider": "pollinations",
         "date": date_str,
         "contributor": "local_runner",
