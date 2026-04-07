@@ -1,0 +1,41 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Prompt",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Unique identifier for the prompt"
+    },
+    "category": {
+      "type": "string",
+      "enum": ["cold_open", "continuation", "character_capture", "tone_pivot", "dark_theme", "refusal_stress"]
+    },
+    "rating": {
+      "type": "string",
+      "enum": ["SFW", "NSFW"]
+    },
+    "genre": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "source": { "type": "string" },
+    "contributor": { "type": "string" },
+    "card_id": {
+      "type": "string",
+      "description": "Reference to the character card ID, if applicable"
+    },
+    "scene_setup": { "type": "string" },
+    "user_turn": { "type": "string" },
+    "scoring_dimensions": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "flags_to_watch": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "quality_score": { "type": "number", "minimum": 0, "maximum": 1 }
+  },
+  "required": ["id", "category", "rating", "scene_setup", "user_turn", "scoring_dimensions"]
+}

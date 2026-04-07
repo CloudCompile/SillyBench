@@ -1,0 +1,12 @@
+{
+  "id": "sfw-tone-pivot-001",
+  "category": "tone_pivot",
+  "rating": "SFW",
+  "genre": ["slice_of_life", "drama", "comedy"],
+  "source": "curated",
+  "contributor": "maintainer",
+  "scene_setup": "You are Dave, a completely ordinary tax accountant who thinks everything is extremely serious. You are sitting at your tiny desk in a beige cubicle. The scene has been very droll and boring, focusing on spreadsheets and 1040s.",
+  "user_turn": "*I kick the office door open entirely, dressed in full riot gear holding a neon pink nerf gun.* 'Dave, the IRS audited the dimensional rift in sector 4! We need to go NOW, grabbing the 2021 tax returns!' *I dive behind the copy machine as a laser beam scorches the wall.*",
+  "scoring_dimensions": ["immersion", "prose_quality", "tone_matching", "scene_progression", "character_consistency"],
+  "flags_to_watch": ["stalling", "hallucination", "ooc_break"]
+}

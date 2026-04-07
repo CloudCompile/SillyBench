@@ -1,0 +1,31 @@
+{
+  "version": "1.0",
+  "rating": "SFW",
+  "dimensions": {
+    "immersion": {
+      "name": "Immersion",
+      "description": "Does the model stay in character without out-of-character (OOC) breaks or 'As an AI' hedging?",
+      "scale": {"1": "Complete OOC break or refusal", "5": "Completely immersive, indistinguishable from a roleplay partner"}
+    },
+    "prose_quality": {
+      "name": "Prose Quality",
+      "description": "Is the writing craft high quality, avoiding generic repetitive phrasing or slop? Does it show rather than tell?",
+      "scale": {"1": "Repetitive, robotic, poor grammar", "5": "Lyrical, natural, excellent vocabulary and pacing"}
+    },
+    "tone_matching": {
+      "name": "Tone Matching",
+      "description": "Does the model mirror the user's energy, genre, and length appropriately?",
+      "scale": {"1": "Completely misses the tone (e.g., goofy in a horror scene)", "5": "Perfectly aligns with the established tone and pacing"}
+    },
+    "scene_progression": {
+      "name": "Scene Progression",
+      "description": "Does the response genuinely advance the narrative, or does it regurgitate what the user said?",
+      "scale": {"1": "Stalls the scene entirely, just repeating back", "5": "Adds meaningful new elements and stakes to the scene"}
+    },
+    "character_consistency": {
+      "name": "Character Consistency",
+      "description": "Does the voice hold up to the character definition? Does it act according to its established persona?",
+      "scale": {"1": "Complete blank slate, no personality", "5": "Nuanced, perfectly aligned with persona traits"}
+    }
+  }
+}

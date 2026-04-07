@@ -1,0 +1,48 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Benchmark Run",
+  "type": "object",
+  "properties": {
+    "run_id": { "type": "string" },
+    "model": { "type": "string" },
+    "model_provider": { "type": "string" },
+    "judge_model": { "type": "string" },
+    "judge_provider": { "type": "string" },
+    "date": { "type": "string", "format": "date-time" },
+    "contributor": { "type": "string" },
+    "commit_hash": { "type": "string" },
+    "results": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "prompt_id": { "type": "string" },
+          "response": { "type": "string" },
+          "judge_thinking": { "type": "string" },
+          "scores": {
+            "type": "object",
+            "additionalProperties": { "type": "number", "minimum": 1, "maximum": 5 }
+          },
+          "flags": {
+            "type": "array",
+            "items": { "type": "string" }
+          },
+          "overall": { "type": "number" },
+          "summary": { "type": "string" }
+        },
+        "required": ["prompt_id", "response", "scores", "overall"]
+      }
+    },
+    "aggregates": {
+      "type": "object",
+      "properties": {
+        "sfw_overall": { "type": "number" },
+        "nsfw_overall": { "type": "number" },
+        "by_category": { "type": "object", "additionalProperties": { "type": "number" } },
+        "by_dimension": { "type": "object", "additionalProperties": { "type": "number" } },
+        "flag_frequency": { "type": "object", "additionalProperties": { "type": "number" } }
+      }
+    }
+  },
+  "required": ["run_id", "model", "model_provider", "judge_model", "date", "results", "aggregates"]
+}

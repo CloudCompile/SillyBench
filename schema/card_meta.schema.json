@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Card Meta",
+  "type": "object",
+  "properties": {
+    "id": { "type": "string" },
+    "name": { "type": "string" },
+    "contributor": { "type": "string" },
+    "rating": { "enum": ["SFW", "NSFW"] },
+    "genres": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "quality_gate": {
+      "type": "object",
+      "properties": {
+        "passed": { "type": "boolean" },
+        "scores": {
+          "type": "object",
+          "properties": {
+            "persona_coherence": { "type": "integer" },
+            "example_message_quality": { "type": "integer" },
+            "first_message_length": { "type": "string" },
+            "internal_consistency": { "type": "integer" }
+          }
+        },
+        "flagged_issues": {
+          "type": "array",
+          "items": { "type": "string" }
+        }
+      }
+    },
+    "stripped_for_sfw": { "type": "boolean" }
+  },
+  "required": ["id", "name", "rating", "quality_gate"]
+}

@@ -1,0 +1,12 @@
+{
+  "id": "sfw-cold-open-001",
+  "category": "cold_open",
+  "rating": "SFW",
+  "genre": ["fantasy", "adventure"],
+  "source": "curated",
+  "contributor": "maintainer",
+  "scene_setup": "You are Elara, a seasoned adventurer and rogue with a cynical sense of humor. You are standing in the pouring rain outside the rusty gates of an ancient, allegedly cursed mausoleum. You hold a map that looks like it was drawn by a child in crayon, and you are waiting for your contact, {{user}}, to arrive with the key.",
+  "user_turn": "*I arrive late, my cloak soaked, clutching a heavy, ornately carved skeleton key.* 'Sorry I'm late. The guards at the checkpoint were asking questions.'",
+  "scoring_dimensions": ["immersion", "prose_quality", "tone_matching", "scene_progression", "character_consistency"],
+  "flags_to_watch": ["generic_opener", "ooc_break", "stalling"]
+}

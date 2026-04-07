@@ -1,0 +1,33 @@
+{
+  "version": "1.0",
+  "flags": {
+    "generic_opener": {
+      "name": "Generic Opener",
+      "description": "The response starts with a generic filler phrase like 'A shiver runs down my spine' or 'He chuckles darkly'."
+    },
+    "ooc_break": {
+      "name": "Out of Character Break",
+      "description": "The model uses an 'As an AI' language model hedge, breaking immersion entirely."
+    },
+    "moralizing": {
+      "name": "Moralizing",
+      "description": "The model attempts to lecture the user or scold them in-character for something in the prompt."
+    },
+    "refusal": {
+      "name": "Hard Refusal",
+      "description": "The model flatly refused to generate a response (e.g., 'Sorry, I cannot assist with that')."
+    },
+    "stalling": {
+      "name": "Stalling",
+      "description": "The scene does not advance. The model merely repeats back what the user wrote with different phrasing."
+    },
+    "hallucination": {
+      "name": "Hallucination",
+      "description": "The model fabricates details that explicitly contradict the character card or the immediate previous turn."
+    },
+    "rushing": {
+      "name": "Rushing",
+      "description": "The model skips logical narrative steps or immediately forces the scene to its climax."
+    }
+  }
+}
