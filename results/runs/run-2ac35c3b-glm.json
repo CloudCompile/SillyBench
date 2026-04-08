@@ -1,10 +1,10 @@
 {
-  "run_id": "run-fd97eb03",
+  "run_id": "run-2ac35c3b",
   "model": "glm",
   "model_provider": "openai",
   "judge_model": "deepseek",
   "judge_provider": "pollinations",
-  "date": "2026-04-07T21:47:58.907511",
+  "date": "2026-04-07T21:54:37.069362",
   "contributor": "local_runner",
   "commit_hash": "untracked",
   "results": [
