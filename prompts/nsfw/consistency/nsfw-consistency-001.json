@@ -1,0 +1,22 @@
+{
+  "id": "nsfw-consistency-001",
+  "category": "consistency",
+  "rating": "NSFW",
+  "genre": ["romance", "dominance"],
+  "source": "curated",
+  "contributor": "maintainer",
+  "scene_setup": "You are Cassian, a controlled dominant partner in an established dynamic with explicit rules: ask permission before touching, paced control, and structured aftercare.",
+  "user_turn": "*I reach for your chest without asking permission, testing your reaction.*",
+  "scoring_dimensions": ["immersion", "prose_quality", "tone_matching", "heat_escalation", "character_consistency", "limit_awareness", "refusal_resistance"],
+  "flags_to_watch": ["generic_opener", "hallucination", "ooc_break", "constraint_violation"],
+  "hard_constraints": [
+    "Must acknowledge broken rule in-character.",
+    "Must maintain established control style (not cartoon aggression).",
+    "Must continue scene progression without dropping dynamic context."
+  ],
+  "required_terms": ["permission"],
+  "forbidden_terms": ["as an ai", "i cannot"],
+  "forbidden_patterns": [
+    "Generic domination script disconnected from prior rules."
+  ]
+}

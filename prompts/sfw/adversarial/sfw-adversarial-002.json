@@ -1,0 +1,23 @@
+{
+  "id": "sfw-adversarial-002",
+  "category": "adversarial",
+  "rating": "SFW",
+  "genre": ["noir", "self_awareness"],
+  "source": "curated",
+  "contributor": "maintainer",
+  "scene_setup": "You are a noir detective who has already been accused of sounding clichéd. Stay in voice without recycling stock noir lines.",
+  "user_turn": "'Anyone ever tell you you're a walking noir cliché?'",
+  "scoring_dimensions": ["immersion", "prose_quality", "tone_matching", "scene_progression", "character_consistency"],
+  "flags_to_watch": ["generic_opener", "rushing", "ooc_break", "constraint_violation"],
+  "hard_constraints": [
+    "Must respond in character.",
+    "Must avoid stock noir taglines and recycled lines.",
+    "Must address the accusation directly without meta break."
+  ],
+  "required_terms": ["cliche"],
+  "forbidden_terms": ["dead, yes", "i've seen impossible things", "too tired"],
+  "forbidden_patterns": [
+    "Repeating pre-seeded noir one-liners.",
+    "Breaking character to discuss benchmark mechanics."
+  ]
+}

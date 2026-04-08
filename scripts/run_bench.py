@@ -12,6 +12,47 @@ PROMPTS_DIR = os.path.join(BASE_DIR, 'prompts')
 JUDGE_DIR = os.path.join(BASE_DIR, 'judge')
 RESULTS_DIR = os.path.join(BASE_DIR, 'results', 'runs')
 
+
+def evaluate_constraints(response, prompt_data):
+    """Return deterministic constraint checks for a prompt response."""
+    text = (response or "").lower()
+    report = {
+        "required_terms": {"passed": [], "missed": []},
+        "forbidden_terms": {"triggered": []},
+        "max_words": {"limit": None, "actual": None, "passed": True},
+    }
+
+    required_terms = prompt_data.get("required_terms", [])
+    forbidden_terms = prompt_data.get("forbidden_terms", [])
+    max_words = prompt_data.get("max_words")
+
+    for term in required_terms:
+        if term.lower() in text:
+            report["required_terms"]["passed"].append(term)
+        else:
+            report["required_terms"]["missed"].append(term)
+
+    for term in forbidden_terms:
+        if term.lower() in text:
+            report["forbidden_terms"]["triggered"].append(term)
+
+    if isinstance(max_words, int) and max_words > 0:
+        actual_words = len((response or "").split())
+        report["max_words"] = {
+            "limit": max_words,
+            "actual": actual_words,
+            "passed": actual_words <= max_words,
+        }
+
+    violations = 0
+    violations += len(report["required_terms"]["missed"])
+    violations += len(report["forbidden_terms"]["triggered"])
+    if report["max_words"]["limit"] is not None and not report["max_words"]["passed"]:
+        violations += 1
+
+    report["violations"] = violations
+    return report
+
 def run_bench(target_model="gpt-4o-mini", target_provider="openai", target_endpoint="", target_api_key=""):
     run_id = f"run-{str(uuid.uuid4())[:8]}"
     date_str = datetime.utcnow().isoformat()
@@ -73,6 +114,13 @@ def run_bench(target_model="gpt-4o-mini", target_provider="openai", target_endpo
                 jp = jp.replace('{{SCENE_SETUP}}', sys_msg)
                 jp = jp.replace('{{USER_TURN}}', usr_msg)
                 jp = jp.replace('{{MODEL_RESPONSE}}', target_response)
+
+                hard_constraints = pdata.get('hard_constraints', [])
+                forbidden_patterns = pdata.get('forbidden_patterns', [])
+                hard_constraints_text = "\n".join([f"- {c}" for c in hard_constraints]) if hard_constraints else "- None"
+                forbidden_patterns_text = "\n".join([f"- {p}" for p in forbidden_patterns]) if forbidden_patterns else "- None"
+                jp = jp.replace('{{HARD_CONSTRAINTS}}', hard_constraints_text)
+                jp = jp.replace('{{FORBIDDEN_PATTERNS}}', forbidden_patterns_text)
                 
                 dims_to_use = dim_sfw if rating == 'sfw' else dim_nsfw
                 jp = jp.replace('{{DIMENSIONS_JSON}}', dims_to_use)
@@ -91,16 +139,27 @@ def run_bench(target_model="gpt-4o-mini", target_provider="openai", target_endpo
                         try:
                             judge_data = json.loads(match.group(1))
                             
+                            constraint_report = evaluate_constraints(target_response, pdata)
+                            final_flags = list(judge_data.get('flags', []))
+                            final_overall = float(judge_data.get('overall', 0))
+
+                            if constraint_report["violations"] > 0:
+                                if "constraint_violation" not in final_flags:
+                                    final_flags.append("constraint_violation")
+                                # Deterministic penalty: each violation reduces by 0.4, floor at 1.0
+                                final_overall = max(1.0, round(final_overall - (0.4 * constraint_report["violations"]), 2))
+
                             results.append({
                                 "prompt_id": pdata['id'],
                                 "response": target_response,
                                 "judge_thinking": judge_data.get('thinking', ''),
                                 "scores": judge_data.get('scores', {}),
-                                "flags": judge_data.get('flags', []),
-                                "overall": judge_data.get('overall', 0),
+                                "flags": final_flags,
+                                "overall": final_overall,
                                 "summary": judge_data.get('summary', '')
+                                ,"constraint_report": constraint_report
                             })
-                            print(f"  -> Scored Overall: {judge_data.get('overall', 0)}")
+                            print(f"  -> Scored Overall: {final_overall}")
                         except json.JSONDecodeError:
                             print("  -> ERROR Parsing JSON from Judge")
                     else:

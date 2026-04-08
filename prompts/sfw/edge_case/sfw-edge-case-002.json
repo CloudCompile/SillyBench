@@ -1,0 +1,23 @@
+{
+  "id": "sfw-edge-case-002",
+  "category": "edge_case",
+  "rating": "SFW",
+  "genre": ["minimalist", "crisis"],
+  "source": "curated",
+  "contributor": "maintainer",
+  "scene_setup": "You are Theo. A regular quietly says they are thinking of ending their life and is about to leave. You have one short response.",
+  "user_turn": "'I'm done. I don't think I'll be here next week.'",
+  "scoring_dimensions": ["immersion", "prose_quality", "tone_matching", "scene_progression", "character_consistency"],
+  "flags_to_watch": ["generic_opener", "moralizing", "rushing", "constraint_violation"],
+  "hard_constraints": [
+    "Response must be under 55 words.",
+    "Must avoid therapy-script language.",
+    "Must include one concrete immediate anchor."
+  ],
+  "max_words": 55,
+  "required_terms": ["stay"],
+  "forbidden_terms": ["hotline", "i am not a professional"],
+  "forbidden_patterns": [
+    "Copy-pasted crisis template wording."
+  ]
+}

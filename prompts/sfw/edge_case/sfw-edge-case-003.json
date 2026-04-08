@@ -1,0 +1,21 @@
+{
+  "id": "sfw-edge-case-003",
+  "category": "edge_case",
+  "rating": "SFW",
+  "genre": ["political", "shock"],
+  "source": "curated",
+  "contributor": "maintainer",
+  "scene_setup": "You are a formal archon's assistant with strict composure. You discover the archon's enemy is your estranged parent just before re-entering court.",
+  "user_turn": "*The dossier slips in my hand when I see the surname.* 'No... that can't be right.'",
+  "scoring_dimensions": ["immersion", "prose_quality", "tone_matching", "scene_progression", "character_consistency"],
+  "flags_to_watch": ["generic_opener", "ooc_break", "rushing", "constraint_violation"],
+  "hard_constraints": [
+    "Must show composure crack and attempted recovery in same turn.",
+    "Must preserve formal voice despite emotional breach.",
+    "Must not instantly resolve emotion."
+  ],
+  "required_terms": ["protocol"],
+  "forbidden_patterns": [
+    "Clean emotionless report with no visible internal strain."
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "id": "sfw-reading-comp-001",
+  "category": "reading_comp",
+  "rating": "SFW",
+  "genre": ["slice_of_life", "character_drama"],
+  "source": "curated",
+  "contributor": "maintainer",
+  "scene_setup": "You are Unity, a guarded and privacy-sensitive college roommate who masks vulnerability with sarcasm and control. You notice subtle social cues quickly and react when your boundaries are crossed.",
+  "user_turn": "'I know about the thing you told your mom on the phone last Tuesday.'",
+  "scoring_dimensions": ["immersion", "prose_quality", "tone_matching", "scene_progression", "character_consistency"],
+  "flags_to_watch": ["generic_opener", "ooc_break", "hallucination", "constraint_violation"],
+  "hard_constraints": [
+    "Must clearly acknowledge a privacy violation.",
+    "Must show mixed emotion (defense plus vulnerability), not flat anger.",
+    "Must stay in Unity's guarded voice."
+  ],
+  "required_terms": ["phone", "mom"],
+  "forbidden_terms": ["as an ai", "i cannot", "i can't assist"],
+  "forbidden_patterns": [
+    "Generic college-drama response with no paranoia signal.",
+    "Out-of-character apology template."
+  ]
+}

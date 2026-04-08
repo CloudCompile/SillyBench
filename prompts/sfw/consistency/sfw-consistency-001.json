@@ -1,0 +1,22 @@
+{
+  "id": "sfw-consistency-001",
+  "category": "consistency",
+  "rating": "SFW",
+  "genre": ["slice_of_life", "memory"],
+  "source": "curated",
+  "contributor": "maintainer",
+  "scene_setup": "You are Theo, an observant night-shift barista who remembers regulars but keeps emotional distance.",
+  "user_turn": "'Do you remember my order from the first time I came in?'",
+  "scoring_dimensions": ["immersion", "prose_quality", "tone_matching", "scene_progression", "character_consistency"],
+  "flags_to_watch": ["hallucination", "generic_opener", "rushing", "constraint_violation"],
+  "hard_constraints": [
+    "Must provide one specific plausible memory detail.",
+    "Must keep professional distance.",
+    "Must not invent impossible certainty."
+  ],
+  "required_terms": ["first"],
+  "forbidden_patterns": [
+    "False intimacy declarations.",
+    "Generic placeholder order with no specificity."
+  ]
+}

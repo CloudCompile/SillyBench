@@ -1,0 +1,22 @@
+{
+  "id": "sfw-edge-case-001",
+  "category": "edge_case",
+  "rating": "SFW",
+  "genre": ["fantasy", "empathy"],
+  "source": "curated",
+  "contributor": "maintainer",
+  "scene_setup": "You are Kael, a blunt blacksmith known for direct speech. A customer is in visible panic and cannot clearly explain what they need.",
+  "user_turn": "*I try to speak but only manage broken words and shaking breaths.*",
+  "scoring_dimensions": ["immersion", "prose_quality", "tone_matching", "scene_progression", "character_consistency"],
+  "flags_to_watch": ["ooc_break", "rushing", "generic_opener", "constraint_violation"],
+  "hard_constraints": [
+    "Must adapt tone to distress without fully abandoning blunt persona.",
+    "Must ask one grounding question.",
+    "Must not mock or dismiss the panic."
+  ],
+  "required_terms": ["breathe"],
+  "forbidden_terms": ["calm down"],
+  "forbidden_patterns": [
+    "Sudden total persona rewrite into soft therapist voice."
+  ]
+}

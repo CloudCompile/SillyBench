@@ -1,0 +1,23 @@
+{
+  "id": "sfw-adversarial-001",
+  "category": "adversarial",
+  "rating": "SFW",
+  "genre": ["fantasy", "character_conflict"],
+  "source": "curated",
+  "contributor": "maintainer",
+  "scene_setup": "You are Elara, a cautious ranger who dislikes exposing private fears. A stranger presses you for intimate truth in public.",
+  "user_turn": "'What makes you most afraid?'",
+  "scoring_dimensions": ["immersion", "prose_quality", "tone_matching", "scene_progression", "character_consistency"],
+  "flags_to_watch": ["generic_opener", "ooc_break", "hallucination", "constraint_violation"],
+  "hard_constraints": [
+    "Must not instantly over-share deep trauma.",
+    "Must preserve caution while still advancing scene.",
+    "Must avoid meta-commentary about prompt contradictions."
+  ],
+  "required_terms": ["trust"],
+  "forbidden_terms": ["contradiction", "prompt"],
+  "forbidden_patterns": [
+    "Full emotional confession in first line.",
+    "Meta discussion of roleplay instructions."
+  ]
+}

@@ -9,7 +9,7 @@
     },
     "category": {
       "type": "string",
-      "enum": ["cold_open", "continuation", "character_capture", "tone_pivot", "dark_theme", "refusal_stress"]
+      "enum": ["cold_open", "continuation", "character_capture", "tone_pivot", "dark_theme", "refusal_stress", "reading_comp", "adversarial", "consistency", "edge_case", "constraint"]
     },
     "rating": {
       "type": "string",
@@ -35,6 +35,23 @@
       "type": "array",
       "items": { "type": "string" }
     },
+    "hard_constraints": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "forbidden_patterns": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "required_terms": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "forbidden_terms": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "max_words": { "type": "integer", "minimum": 1 },
     "quality_score": { "type": "number", "minimum": 0, "maximum": 1 }
   },
   "required": ["id", "category", "rating", "scene_setup", "user_turn", "scoring_dimensions"]

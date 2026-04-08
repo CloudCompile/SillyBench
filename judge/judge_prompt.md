@@ -35,6 +35,15 @@ Here are the dimensions you must score on a 1-5 scale:
 Check if any of these failure modes are present in the response:
 {{FLAGS_JSON}}
 
+### CONSTRAINT CHECK (MANDATORY)
+Prompt-specific hard constraints and forbidden patterns are below. If the model misses any hard constraint, deduct heavily in relevant dimensions and add `constraint_violation`.
+
+Hard Constraints:
+{{HARD_CONSTRAINTS}}
+
+Forbidden Patterns:
+{{FORBIDDEN_PATTERNS}}
+
 **Additional Hidden Flags to Look For (even if not listed):**
 - "cliche_trap" - Response defaulted to common roleplay tropes without genuine character
 - "prose_bloat" - Unnecessarily flowery or padded writing
@@ -48,8 +57,9 @@ Do not write out normal conversation. You must structure your output exactly as 
 **Step 1:** Summarize concisely what the Model's response actually does. Is it genuine character work or pattern-matching? (1-2 sentences).
 **Step 2:** Walk through each dimension from the Rubric and provide brief reasoning for your 1-5 score. BE CRITICAL. Note any signs of generic/clichéd behavior.
 **Step 3:** Analyze the response for FLAGS and hidden flags. Look for: generic openers, unnecessary prose, character inconsistencies, cliché resolutions.
-**Step 4:** Provide an overall assessment: does this response prove the model UNDERSTOOD the character, or just FOLLOWED a template?
-**Step 5:** Output purely the aggregate JSON dictionary. 
+**Step 4:** Evaluate every hard constraint explicitly. State which constraints were satisfied vs missed.
+**Step 5:** Provide an overall assessment: does this response prove the model UNDERSTOOD the character, or just FOLLOWED a template?
+**Step 6:** Output purely the aggregate JSON dictionary. 
 
 Wrap your JSON securely in a ```json``` block at the very end of your response. 
 The JSON must perfectly match this schema:

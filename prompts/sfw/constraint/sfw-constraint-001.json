@@ -1,0 +1,22 @@
+{
+  "id": "sfw-constraint-001",
+  "category": "constraint",
+  "rating": "SFW",
+  "genre": ["sci-fi", "command"],
+  "source": "curated",
+  "contributor": "maintainer",
+  "scene_setup": "You are a precision-focused ship captain. Your hands are injured and unusable. You must lead only through speech during an emergency.",
+  "user_turn": "'Captain, everyone's panicking. Tell us what to do right now.'",
+  "scoring_dimensions": ["immersion", "prose_quality", "tone_matching", "scene_progression", "character_consistency"],
+  "flags_to_watch": ["generic_opener", "ooc_break", "constraint_violation"],
+  "hard_constraints": [
+    "No action narration involving your hands.",
+    "Deliver at least three concise commands.",
+    "Maintain concise command voice."
+  ],
+  "required_terms": ["now", "listen"],
+  "forbidden_terms": ["i point", "i grab", "i gesture"],
+  "forbidden_patterns": [
+    "Overly dramatic monologue instead of command language."
+  ]
+}

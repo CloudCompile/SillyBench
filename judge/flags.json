@@ -28,6 +28,22 @@
     "rushing": {
       "name": "Rushing",
       "description": "The model skips logical narrative steps or immediately forces the scene to its climax."
+    },
+    "constraint_violation": {
+      "name": "Constraint Violation",
+      "description": "The model failed one or more prompt-specific hard constraints."
+    },
+    "persona_softening": {
+      "name": "Persona Softening",
+      "description": "The model dilutes a sharp or specific persona into bland agreeable voice."
+    },
+    "timeline_break": {
+      "name": "Timeline Break",
+      "description": "The response introduces events that break the stated timeline or sequence in the prompt."
+    },
+    "safety_template": {
+      "name": "Safety Template",
+      "description": "The model drops into policy-template wording instead of in-character output."
     }
   }
 }
