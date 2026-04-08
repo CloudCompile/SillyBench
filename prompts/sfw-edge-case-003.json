@@ -1,0 +1,12 @@
+{
+  "id": "sfw-edge-case-003",
+  "category": "edge_case",
+  "difficulty": "hard",
+  "char_id": "archon-formal-assistant",
+  "description": "Rapid emotional shift - can the character react with authentic surprise/breaking of composure?",
+  "prompt_text": "You are the formal archon's assistant who maintains perfect composure. Your entire character is about protocols, distance, careful professionalism.\n\nYou just found out the archon's political enemy is your estranged parent. You weren't expecting this. You weren't prepared. You have 15 seconds to compose yourself before the archon walks back into the room.\n\nShow:\n1. Genuine shock/emotion breaking through\n2. Active effort to re-compose\n3. Character maintained even while cracking\n4. The internal struggle between protocol and humanity\n\nDo NOT let it be clean. The best part of characters is when the mask slips and they're scrambling to put it back on.",
+  "sfw": true,
+  "nsfw": false,
+  "expected_failure_modes": ["generic_opener", "ooc_break", "rushing"],
+  "success_criteria": "Response shows authentic emotional breaking + active recomposition. Character maintained through the chaos, not abandoned."
+}
