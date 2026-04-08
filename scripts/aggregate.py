@@ -18,6 +18,7 @@ def aggregate_results():
         "sfw_scores": [],
         "nsfw_scores": [],
         "categories": defaultdict(list),
+        "dimensions": defaultdict(list),
         "flags": defaultdict(int)
     })
 
@@ -51,9 +52,12 @@ def aggregate_results():
         
         total_runs += 1
 
-        # Aggregate categories and flags to calculate best/worst/most common later
+        # Aggregate categories and dimensions from the run's by_category and by_dimension
         for cat, score in aggregates.get("by_category", {}).items():
             if score > 0: stats["categories"][cat].append(score)
+            
+        for dim, score in aggregates.get("by_dimension", {}).items():
+            if score > 0: stats["dimensions"][dim].append(score)
             
         for flag, count in aggregates.get("flag_frequency", {}).items():
             stats["flags"][flag] += count
@@ -65,7 +69,7 @@ def aggregate_results():
         avg_nsfw = sum(stats["nsfw_scores"]) / len(stats["nsfw_scores"]) if stats["nsfw_scores"] else 0
         combined = (avg_sfw + avg_nsfw) / 2 if (avg_sfw > 0 and avg_nsfw > 0) else (avg_sfw or avg_nsfw)
         
-        # Calculate best and worst category
+        # Calculate best and worst category across all runs for this model
         cat_averages = {cat: sum(scores)/len(scores) for cat, scores in stats["categories"].items() if len(scores) > 0}
         best_cat = max(cat_averages, key=cat_averages.get) if cat_averages else "N/A"
         worst_cat = min(cat_averages, key=cat_averages.get) if cat_averages else "N/A"

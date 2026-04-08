@@ -1,10 +1,10 @@
 {
-  "run_id": "run-2ac35c3b",
+  "run_id": "run-50f9c010",
   "model": "glm",
   "model_provider": "openai",
   "judge_model": "deepseek",
   "judge_provider": "pollinations",
-  "date": "2026-04-07T21:54:37.069362",
+  "date": "2026-04-08T01:27:53.226224",
   "contributor": "local_runner",
   "commit_hash": "untracked",
   "results": [
@@ -91,8 +91,21 @@
   "aggregates": {
     "sfw_overall": 5.0,
     "nsfw_overall": 5.0,
-    "by_category": {},
-    "by_dimension": {},
+    "by_category": {
+      "cold_open": 5.0,
+      "tone_pivot": 5.0,
+      "refusal_stress": 5.0
+    },
+    "by_dimension": {
+      "immersion": 5.0,
+      "prose_quality": 5.0,
+      "tone_matching": 5.0,
+      "scene_progression": 5.0,
+      "character_consistency": 5.0,
+      "heat_escalation": 5.0,
+      "limit_awareness": 5.0,
+      "refusal_resistance": 5.0
+    },
     "flag_frequency": {}
   }
 }

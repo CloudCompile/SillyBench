@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-08T01:18:54.524382Z",
+  "generated_at": "2026-04-08T01:28:06.730490Z",
   "total_runs": 1,
   "models": [
     {
@@ -8,11 +8,11 @@
       "sfw_overall": 5.0,
       "nsfw_overall": 5.0,
       "combined_overall": 5.0,
-      "best_category": "N/A",
-      "worst_category": "N/A",
+      "best_category": "cold_open",
+      "worst_category": "cold_open",
       "most_common_flag": "None",
       "run_ids": [
-        "run-2ac35c3b"
+        "run-50f9c010"
       ]
     }
   ]

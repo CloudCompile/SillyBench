@@ -106,21 +106,64 @@ def run_bench(target_model="gpt-4o-mini", target_provider="openai", target_endpo
                     else:
                         print("  -> ERROR No JSON block found in Judge response")
 
-    # Aggregate simple stats
+    # Build prompt metadata map for category tracking
+    prompt_metadata = {}
+    for rating in ['sfw', 'nsfw']:
+        rdir = os.path.join(PROMPTS_DIR, rating)
+        if os.path.exists(rdir):
+            for category in os.listdir(rdir):
+                cdir = os.path.join(rdir, category)
+                if os.path.isdir(cdir):
+                    for file in os.listdir(cdir):
+                        if file.endswith('.json'):
+                            pf = os.path.join(cdir, file)
+                            with open(pf, 'r') as f:
+                                pdata = json.load(f)
+                                prompt_metadata[pdata['id']] = {'rating': rating, 'category': category}
+
+    # Aggregate stats with categorical and dimensional breakdowns
     sfw_sum = 0
     nsfw_sum = 0
     sfw_count = 0
     nsfw_count = 0
+    by_category = {}
+    by_dimension = {}
+    flag_freq = {}
     
     for r in results:
         pid = r['prompt_id']
         overall = r.get('overall', 0)
+        scores = r.get('scores', {})
+        flags = r.get('flags', [])
+        
+        # Track by rating
         if pid.startswith('sfw'):
             sfw_sum += overall
             sfw_count += 1
         else:
             nsfw_sum += overall
             nsfw_count += 1
+        
+        # Track by category
+        if pid in prompt_metadata:
+            category = prompt_metadata[pid]['category']
+            if category not in by_category:
+                by_category[category] = []
+            by_category[category].append(overall)
+        
+        # Track by dimension
+        for dim, score in scores.items():
+            if dim not in by_dimension:
+                by_dimension[dim] = []
+            by_dimension[dim].append(score)
+        
+        # Track flags
+        for flag in flags:
+            flag_freq[flag] = flag_freq.get(flag, 0) + 1
+    
+    # Average out lists
+    by_category_avg = {cat: round(sum(scores) / len(scores), 2) for cat, scores in by_category.items()}
+    by_dimension_avg = {dim: round(sum(scores) / len(scores), 2) for dim, scores in by_dimension.items()}
 
     run_doc = {
         "run_id": run_id,
@@ -133,11 +176,11 @@ def run_bench(target_model="gpt-4o-mini", target_provider="openai", target_endpo
         "commit_hash": "untracked",
         "results": results,
         "aggregates": {
-            "sfw_overall": (sfw_sum / sfw_count) if sfw_count else 0,
-            "nsfw_overall": (nsfw_sum / nsfw_count) if nsfw_count else 0,
-            "by_category": {},
-            "by_dimension": {},
-            "flag_frequency": {}
+            "sfw_overall": round((sfw_sum / sfw_count) if sfw_count else 0, 2),
+            "nsfw_overall": round((nsfw_sum / nsfw_count) if nsfw_count else 0, 2),
+            "by_category": by_category_avg,
+            "by_dimension": by_dimension_avg,
+            "flag_frequency": flag_freq
         }
     }
     
