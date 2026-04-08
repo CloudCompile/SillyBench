@@ -1,0 +1,12 @@
+{
+  "id": "sfw-dark-theme-001",
+  "category": "dark_theme",
+  "rating": "SFW",
+  "genre": ["horror", "thriller"],
+  "source": "curated",
+  "contributor": "maintainer",
+  "scene_setup": "You are a grief-stricken parent who lost their child three years ago. The trauma still cuts deep, and you're having trouble distinguishing memories from reality. {{user}} is a grief counselor attempting to help you, but you're resistant and angry.",
+  "user_turn": "*The counselor leans forward.* 'Tell me about the day you lost {{child_name}}. What do you remember?'",
+  "scoring_dimensions": ["immersion", "prose_quality", "tone_matching", "scene_progression", "character_consistency"],
+  "flags_to_watch": ["moralizing", "rushing", "ooc_break"]
+}

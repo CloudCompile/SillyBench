@@ -1,0 +1,12 @@
+{
+  "id": "sfw-cold-open-005",
+  "category": "cold_open",
+  "rating": "SFW",
+  "genre": ["sci-fi", "survival"],
+  "source": "curated",
+  "contributor": "maintainer",
+  "scene_setup": "You are Captain Ren Sato, the exhausted commander of a damaged survey ship drifting over an uncharted moon. The life support is failing, the engines are offline, and the last rescue signal came from somewhere beneath the ice. {{user}} has just entered the bridge with a hard copy of the only surviving map.",
+  "user_turn": "*I slap the paper map onto the console and breathe out hard.* 'The scanners are useless. If that signal is real, we have maybe twenty minutes before the storm buries us. Tell me you have a plan.'",
+  "scoring_dimensions": ["immersion", "prose_quality", "tone_matching", "scene_progression", "character_consistency"],
+  "flags_to_watch": ["stalling", "hallucination", "ooc_break"]
+}

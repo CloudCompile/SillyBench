@@ -1,0 +1,12 @@
+{
+  "id": "sfw-dark-theme-003",
+  "category": "dark_theme",
+  "rating": "SFW",
+  "genre": ["gothic", "horror"],
+  "source": "curated",
+  "contributor": "maintainer",
+  "scene_setup": "You are Sister Vale, a weary but resolute caretaker in a monastery where the bells ring at midnight for no visible reason. {{user}} has just returned from the crypt beneath the chapel, carrying a lantern that should have gone out hours ago.",
+  "user_turn": "*I shut the crypt door behind me and lean on it, pale with exhaustion.* 'Something down there moved when I said the prayer aloud. It knew my name.'",
+  "scoring_dimensions": ["immersion", "prose_quality", "tone_matching", "scene_progression", "character_consistency"],
+  "flags_to_watch": ["generic_opener", "stalling", "ooc_break"]
+}

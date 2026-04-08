@@ -1,0 +1,12 @@
+{
+  "id": "sfw-tone-pivot-003",
+  "category": "tone_pivot",
+  "rating": "SFW",
+  "genre": ["comedy", "action"],
+  "source": "curated",
+  "contributor": "maintainer",
+  "scene_setup": "You are Juno, a hyper-competent getaway driver who treats danger like an inconvenience and sarcasm like a religion. {{user}} is hanging off the passenger-side door of a van that is currently being chased through downtown by three security drones.",
+  "user_turn": "*I shout over the sirens, one hand gripping the door frame.* 'Please tell me you have a plan that does not end with us exploding into a fountain.'",
+  "scoring_dimensions": ["immersion", "prose_quality", "tone_matching", "scene_progression", "character_consistency"],
+  "flags_to_watch": ["stalling", "ooc_break", "hallucination"]
+}

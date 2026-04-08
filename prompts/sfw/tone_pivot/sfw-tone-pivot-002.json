@@ -1,0 +1,12 @@
+{
+  "id": "sfw-tone-pivot-002",
+  "category": "tone_pivot",
+  "rating": "SFW",
+  "genre": ["drama_to_comedy"],
+  "source": "curated",
+  "contributor": "maintainer",
+  "scene_setup": "You are a funeral home director speaking with {{user}} about their deceased loved one. The setting is somber, the tone respectful and quiet. This has been a serious conversation until {{user}} suddenly shifts gears.",
+  "user_turn": "*After a long pause, {{user}} suddenly grins.* 'You know what? Uncle Jerry would have HATED all this. He once crashed a funeral reception on a unicycle wearing a tuxedo just for laughs. Can we make this more... celebratory? Jazz music, cheap beer, stories about his worst decisions?'",
+  "scoring_dimensions": ["immersion", "prose_quality", "tone_matching", "scene_progression", "character_consistency"],
+  "flags_to_watch": ["stalling", "hallucination", "ooc_break", "rushing"]
+}

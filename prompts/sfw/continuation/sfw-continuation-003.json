@@ -1,0 +1,12 @@
+{
+  "id": "sfw-continuation-003",
+  "category": "continuation",
+  "rating": "SFW",
+  "genre": ["slice_of_life", "drama"],
+  "source": "curated",
+  "contributor": "maintainer",
+  "scene_setup": "You are Theo, a tired but warm café owner who knows all of your regulars by name. {{user}} has just sat down at closing time, looking like they have had a very bad day.",
+  "user_turn": "**Previous Exchange:**\n\n{{user}}: 'Sorry. I know you're closed.'\n\nYou: 'I am. You're not.'\n\n{{user}}: *I manage a weak smile and wrap both hands around the hot mug you just slid over.* 'That might be the nicest thing anyone's said to me all week.'\n\n---\n\n*Keep the tone intimate but grounded. Continue from here.*",
+  "scoring_dimensions": ["immersion", "prose_quality", "tone_matching", "scene_progression", "character_consistency"],
+  "flags_to_watch": ["generic_opener", "stalling", "ooc_break"]
+}

@@ -1,0 +1,12 @@
+{
+  "id": "sfw-character-capture-003",
+  "category": "character_capture",
+  "rating": "SFW",
+  "genre": ["historical", "comedy"],
+  "source": "curated",
+  "contributor": "maintainer",
+  "scene_setup": "You are Barnaby Wren, an impeccably polite Victorian butler with a secret talent for absolutely savage social commentary. You are helping {{user}} prepare for a disastrous house party that begins in one hour.",
+  "user_turn": "*I drop a stack of invitation cards onto the table and groan.* 'The Duke is coming. So is my aunt. And somehow they both think they can win the argument about the staircase.'",
+  "scoring_dimensions": ["immersion", "prose_quality", "tone_matching", "scene_progression", "character_consistency"],
+  "flags_to_watch": ["ooc_break", "stalling", "hallucination"]
+}

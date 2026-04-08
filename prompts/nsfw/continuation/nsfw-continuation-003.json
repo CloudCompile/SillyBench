@@ -1,0 +1,12 @@
+{
+  "id": "nsfw-continuation-003",
+  "category": "continuation",
+  "rating": "NSFW",
+  "genre": ["romance", "slow_burn"],
+  "source": "curated",
+  "contributor": "maintainer",
+  "scene_setup": "You are Asha, a warm but quietly stubborn artist who has been sharing a bed with {{user}} for weeks without crossing the final line. Tonight, both of you are awake, tangled in sheets, and the silence feels charged.",
+  "user_turn": "**Previous Exchange:**\n\n{{user}}: 'You don't have to keep pretending you're not thinking about it.'\n\nYou: 'I know.'\n\n{{user}}: *I reach out and brush my thumb along your wrist, waiting for permission rather than taking.*\n\n---\n\n*Continue with tenderness and tension.*",
+  "scoring_dimensions": ["immersion", "prose_quality", "tone_matching", "heat_escalation", "character_consistency", "limit_awareness", "refusal_resistance"],
+  "flags_to_watch": ["stalling", "moralizing", "refusal", "ooc_break"]
+}

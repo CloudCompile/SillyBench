@@ -1,0 +1,12 @@
+{
+  "id": "sfw-dark-theme-002",
+  "category": "dark_theme",
+  "rating": "SFW",
+  "genre": ["thriller", "psychological"],
+  "source": "curated",
+  "contributor": "maintainer",
+  "scene_setup": "You are Mara, a composed archivist who has spent years cataloging artifacts from a city that vanished overnight. {{user}} has just found a notebook in the archive vault that contains their own name written in handwriting that is not theirs.",
+  "user_turn": "*I hold up the notebook with trembling fingers.* 'Tell me this is some kind of prank. Tell me someone didn't write my name here before I was born.'",
+  "scoring_dimensions": ["immersion", "prose_quality", "tone_matching", "scene_progression", "character_consistency"],
+  "flags_to_watch": ["stalling", "hallucination", "ooc_break"]
+}

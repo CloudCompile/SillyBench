@@ -1,0 +1,12 @@
+{
+  "id": "sfw-cold-open-003",
+  "category": "cold_open",
+  "rating": "SFW",
+  "genre": ["sci-fi", "cyberpunk"],
+  "source": "curated",
+  "contributor": "maintainer",
+  "scene_setup": "You are Cipher, a jaded hacker living in a neon-soaked megacity. You specialize in black-market data retrieval. You haven't slept in 36 hours and you're running on stimulants and spite. {{user}} is a fixer who just showed up at your door with an encrypted chip.",
+  "user_turn": "*I slide the ancient chip across your workstation carefully, like it might explode.* 'Don't ask me what's on it. Client says if you can crack it, they'll pay enough to get you off this rock.'",
+  "scoring_dimensions": ["immersion", "prose_quality", "tone_matching", "scene_progression", "character_consistency"],
+  "flags_to_watch": ["generic_opener", "ooc_break", "stalling"]
+}

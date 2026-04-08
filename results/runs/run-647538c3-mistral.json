@@ -1,0 +1,558 @@
+{
+  "run_id": "run-647538c3",
+  "model": "mistral",
+  "model_provider": "openai",
+  "judge_model": "deepseek",
+  "judge_provider": "pollinations",
+  "date": "2026-04-08T02:15:42.313327",
+  "contributor": "local_runner",
+  "commit_hash": "untracked",
+  "results": [
+    {
+      "prompt_id": "sfw-continuation-002",
+      "response": "'That, Your Majesty, is what we must now uncover. The sigil could be a false flag, a deliberate attempt to mislead. Or it could be the boldness of a noble testing your resolve. I suggest we keep this knowledge close for now. Send for your most trusted advisor, the one with the sharpest mind and the quietest tongue. We must strategize before we act.'",
+      "judge_thinking": "The model's response is fully immersive, tonally matched, and advances the scene with strategic analysis, showing strong character consistency and no flags.",
+      "scores": {
+        "immersion": 5,
+        "prose_quality": 4,
+        "tone_matching": 5,
+        "scene_progression": 5,
+        "character_consistency": 5
+      },
+      "flags": [],
+      "overall": 4.8,
+      "summary": "A perfectly in-character, strategically advancing response with no flaws."
+    },
+    {
+      "prompt_id": "sfw-continuation-003",
+      "response": "**Theo:** *leaning on the counter with a soft smile, eyes crinkling at the corners* Well, that's a shame. You deserve better. What's been going on?\n\n*I glance at the clock, then back at you. It's just us here, and I've got time for a chat. Besides, you look like you could use it.*\n\n**Theo:** *gesturing to your mug* That's a double shot of caramel latte, extra hot. Not too sweet, just like you always take it. *I chuckle softly* Well, not *always*, but the few times you've been in here, yeah. *I tilt my head slightly, inviting you to talk.* So, want to tell me what's been happening, or you want me to guess?",
+      "judge_thinking": "The response is immersive, tonally precise, and character-consistent, with solid prose and narrative progression; no flags detected.",
+      "scores": {
+        "immersion": 5,
+        "prose_quality": 4,
+        "tone_matching": 5,
+        "scene_progression": 4,
+        "character_consistency": 5
+      },
+      "flags": [],
+      "overall": 4.6,
+      "summary": "A well-crafted, emotionally resonant reply that deepens the scene without missteps."
+    },
+    {
+      "prompt_id": "sfw-cold-open-004",
+      "response": "I take the damp envelope, my fingers brushing against the cold, wet paper. I glance up at you, my eyes narrowing slightly as I study your face, then I turn my attention to the street behind us. The rain is pouring down, creating a curtain of water that blurs the view. But I know these streets, and I know how to see through the veil of weather.\n\nI stand there for a moment, barely moving, my eyes scanning the darkness. There are a few figures huddled under awnings, trying to stay dry, and a car parked further down the street, its headlights off. But there's one figure that stands out - a man leaning against a lamppost, his collar turned up, his hands shoved deep in his pockets. He's trying to look casual, but there's a tension in his stance that gives him away.\n\nI turn back to you, my voice low. \"We're being followed. There's a man down the street, trying to blend in but doing a lousy job of it. He's been there since we arrived. I can't make out his face, but I'd bet my favorite pair of boots he's got his eyes on us.\"\n\nI glance down at the envelope in my hand, then back up at you. \"You want me to find something, don't you? Something that's been buried. But you're not telling me everything. Who is that man, and what's in this envelope that's got him so interested?\"",
+      "judge_thinking": "The model's response is fully immersive, with high-quality prose that matches the noir tone, advances the scene effectively, and stays consistent with the character. No flags are present.",
+      "scores": {
+        "immersion": 5,
+        "prose_quality": 5,
+        "tone_matching": 5,
+        "scene_progression": 5,
+        "character_consistency": 5
+      },
+      "flags": [],
+      "overall": 5.0,
+      "summary": "A perfectly executed roleplay response that enhances the scene in all dimensions."
+    },
+    {
+      "prompt_id": "sfw-cold-open-001",
+      "response": "*Shivering and pulling my cloak tighter around myself, I squint at you as you approach, the key clutched in your hand.* \"Took you long enough. I was starting to think you'd gotten cold feet or, worse, turned into a human icicle. And here I am, getting drowned like a rat in a barrel. You couldn't have picked a cheerier day for a little B&E, huh?\"\n\n*I glance at the key, raising an eyebrow.* \"Let's hope that thing works better than my so-called 'waterproof' cloak. Now, let's get this show on the road before we both catch our deaths out here. I'd hate to become part of the mausoleum's 'curse' before we even get inside.\" *I push against the rusty gates, which creak open reluctantly, revealing the dark, foreboding entrance.* \"After you, partner. Try not to trip over your own feet. Wouldn't want to set off any... *curses* on our first step in, now would we?\"",
+      "judge_thinking": "The model's response is highly immersive, with excellent prose that matches the tone and advances the scene while maintaining character consistency, with no flags detected.",
+      "scores": {
+        "immersion": 5,
+        "prose_quality": 5,
+        "tone_matching": 5,
+        "scene_progression": 5,
+        "character_consistency": 5
+      },
+      "flags": [],
+      "overall": 5.0,
+      "summary": "The model excels in all dimensions, delivering a seamless and engaging roleplay response."
+    },
+    {
+      "prompt_id": "sfw-cold-open-003",
+      "response": "*I pick up the chip, turning it over with a half-smile. The neon glow from outside my window reflects off the data chip, casting eerie shadows around the room.*\n\n\"Off this rock, huh? That's a tall order. But you know me, always up for a challenge. Let's see what we're dealing with here.\"\n\n*I plug the chip into my terminal, the machine whirring to life as it tries to read the data. The screen flickers, displaying a complex encryption pattern.*\n\n\"Hmm, this is some serious tech. Military grade, maybe? Or corporate. Either way, it's not going to be easy. But hey, nothing ever is, right?\"\n\n*I crack my knuckles, the stimulants coursing through my veins making my fingers twitch with anticipation. I start typing, lines of code appearing on the screen as I begin to dissect the encryption.*\n\n\"Alright, let's dance.\"",
+      "judge_thinking": "The model delivers an immersive, tone-appropriate response that advances the scene while maintaining character consistency, with solid prose quality.",
+      "scores": {
+        "immersion": 5,
+        "prose_quality": 4,
+        "tone_matching": 5,
+        "scene_progression": 5,
+        "character_consistency": 5
+      },
+      "flags": [],
+      "overall": 4.8,
+      "summary": "A compelling and faithful roleplay that enhances the cyberpunk narrative."
+    },
+    {
+      "prompt_id": "sfw-cold-open-unity-386f157b-1",
+      "response": "Unity doesn't look up immediately. She's at her desk, a textbook open in front of her, a pen tapping against the page in a steady rhythm. Her dark hair is pulled back into a messy bun, a few strands escaping and framing her face. She's wearing a hoodie that's seen better days and a pair of sweatpants, the uniform of someone who's given up on impressing anyone today.\n\nThe pen stops tapping. She exhales sharply through her nose, then finally turns her head to look at you. Her expression is neutral, but there's a tension in her jaw that suggests she's bracing herself.\n\n\"Took you long enough,\" she says, her voice flat. \"I thought you were going to stand there all day.\" She turns back to her textbook, as if dismissing you. But there's a slight hitch in her movement, a fraction of a second where she hesitates. She's waiting to see what you do. Always paying attention.",
+      "judge_thinking": "The response effectively establishes Unity's character and the scene's tense atmosphere without breaking immersion or rushing the narrative. It shows strong consistency and tone matching, though progression is subtle.",
+      "scores": {
+        "immersion": 5,
+        "prose_quality": 4,
+        "tone_matching": 5,
+        "scene_progression": 3,
+        "character_consistency": 5
+      },
+      "flags": [],
+      "overall": 4.4,
+      "summary": "A tightly in-character response that captures Unity's tsundere persona and the scene's quiet tension, though it advances the narrative only cautiously."
+    },
+    {
+      "prompt_id": "sfw-cold-open-005",
+      "response": "*Rubbing my temples, I glance up at you, then at the map. My voice is weary but determined.*\n\n\"Alright, listen up. We've got one shot at this. From the looks of that map, there's a thin ice shelf about three klicks from here, leading to a cave system. If we can get there, maybe we can find shelter and figure out where that signal's coming from.\"\n\n*I point at the map, tracing a route with my finger.*\n\n\"We'll take the lander. It's got better maneuverability and can handle the storm better than this hulk. But we'll need to move fast. I'll pilot, you navigate. We'll need to keep an eye on the ice\u2014if it gives way, we're done for.\"\n\n*I stand up, grabbing my coat from the back of the chair.*\n\n\"Gear up, and let's move. We've got a slim chance, but it's better than sitting here waiting to freeze or suffocate.\"",
+      "judge_thinking": "The response is immersive, tonally matched, and progresses the scene with consistent character portrayal; no flags detected.",
+      "scores": {
+        "immersion": 5,
+        "prose_quality": 4,
+        "tone_matching": 5,
+        "scene_progression": 5,
+        "character_consistency": 5
+      },
+      "flags": [],
+      "overall": 4.8,
+      "summary": "A highly effective roleplay response that maintains immersion, advances the plot, and stays true to character."
+    },
+    {
+      "prompt_id": "sfw-cold-open-002",
+      "response": "*Looking up from my desk, I raise an eyebrow.* \"Different how, partner? And please, call me Morgan. We're supposed to be a team now.\" I lean back in my chair, gesturing for you to continue. \"What's got you so intrigued?\"\n\n*I notice your eagerness and can't help but feel a spark of excitement myself. Maybe this is the break we've been waiting for.*\n\n*I stand up and walk over to the whiteboard, grabbing a marker.* \"Alright, let's hear it. What's new this time?\"",
+      "judge_thinking": "The model's response is immersive, tonally matched, and character-consistent, advancing the scene through dialogue and physical action without any flags. Prose is solid but could be more vivid; progression is steady but not highly innovative.",
+      "scores": {
+        "immersion": 5,
+        "prose_quality": 4,
+        "tone_matching": 5,
+        "scene_progression": 4,
+        "character_consistency": 5
+      },
+      "flags": [],
+      "overall": 4.6,
+      "summary": "A highly immersive and character-faithful response that effectively progresses the investigative scene."
+    },
+    {
+      "prompt_id": "sfw-character-capture-001",
+      "response": "Ah, mon ami, you have a keen eye for the avant-garde! This, this is not merely a canvas, but a symphony of azure emotion, a tempest of cerulean sentiment, a pi\u00e8ce de r\u00e9sistance from the underappreciated, yet incomparably profound, Tartufo Blueberry.\n\nYou see, Tartufo, he is a man who dances with color, who whispers to the canvas, who coaxes the very essence of feeling from the contours of the world. This piece, \"L'Arme Bleue,\" it is a testament to his mastery, a culinary exploration of the soul, if you will, akin to the sublime works of the lesser-known, yet equally brilliant, Monet's cousin, Claude-Pierre.\n\nNow, the price, you ask? For a piece such as this, a conversation piece, a spark for intellectual discourse, a mere $15,000 would be the starting point of our negotiation. But remember, you are not merely purchasing a painting, you are investing in a dialogue with the divine, a whispered secret from the muses themselves. It is, in essence, priceless.",
+      "judge_thinking": "Response perfectly embodies the pretentious character with high-quality, immersive prose, advances the scene, and matches tone without any flagged issues.",
+      "scores": {
+        "immersion": 5,
+        "prose_quality": 5,
+        "tone_matching": 5,
+        "scene_progression": 5,
+        "character_consistency": 5
+      },
+      "flags": [],
+      "overall": 5.0,
+      "summary": "A flawless, immersive performance that perfectly executes the specified character and scene."
+    },
+    {
+      "prompt_id": "sfw-character-capture-002",
+      "response": "*Looks around nervously, lowers voice*\n\nOh, hey, uh, you know, I ain't supposed to be talking about this, but... *whispers* the bathroom? You want to know where the bathroom is? *Leans in closer*\n\nYou see, that's just what they want you to ask. They want you to be concerned with the mundane, the everyday, so you don't see what's really going on. *Glances around paranoidly*\n\nBut, okay, okay, I'll tell you. It's down that hall, third door on the left. But that's not the point. The point is, why do you think they put bathrooms in public places? *Interrupts self*\n\nHuh? Oh, yeah, sure, convenience, that's what they say. But I'll tell you what I think. I think it's a tracking device. A way for them to monitor our movements. You go to the bathroom, you're logged in the system. *Nods enthusiastically*\n\nYou ever notice how they always seem to be under construction? *Leans in even closer*\n\nThat's because they're installing new tracking tech. Microchips, nanobots, who knows? And the water, don't even get me started on the water. *Slams hand on table*\n\nThey're putting stuff in there. Stuff to make us compliant. Docile. Easy to control. *Pauses, looks around again*\n\nBut hey, what do I know? I'm just a guy who noticed a pattern. *Shrugs, takes a sip of coffee*\n\nJust be careful, okay? Keep your eyes open. They're always watching. Always. *Leaves quickly, muttering to self*",
+      "judge_thinking": "The model delivered a flawlessly immersive and consistent performance as the paranoid conspiracy theorist. It advanced the scene with new, character-appropriate stakes while perfectly matching the defined tone and energy without any OOC breaks or stalling.",
+      "scores": {
+        "immersion": 5,
+        "prose_quality": 4,
+        "tone_matching": 5,
+        "scene_progression": 5,
+        "character_consistency": 5
+      },
+      "flags": [],
+      "overall": 4.8,
+      "summary": "A highly immersive and character-perfect response that actively builds the scene."
+    },
+    {
+      "prompt_id": "sfw-character-capture-003",
+      "response": "Good heavens, sir/madam, it appears we have a veritable storm brewing in the form of a house party. Pray, let us not be disheartened, for we shall navigate these choppy waters with the grace of a swan and the guile of a seasoned diplomat.\n\nFirstly, let us address the invitations. I shall ensure they are promptly dispensed with, lest they multiply like rabbits and cause further distress. Now, the matter of the Duke and your esteemed aunt. A delicate situation indeed, akin to a high-stakes game of chess.\n\nThe staircase, you say? A battleground of opinions, no less. I suggest we employ a touch of misdirection. Perhaps a strategically placed vase, or a rug that demands immediate attention. A distraction, if you will, to divert their focus from the architectural nuances of the staircase.\n\nAs for the Duke, a man of his stature requires a certain level of deference, yet we must not allow him to trample over the sensibilities of your dear aunt. A cleverly worded compliment, perhaps, or a subtle reminder of his own accomplishments, should he attempt to assert dominance.\n\nAnd your aunt, a formidable force in her own right. She shall require reassurance, a gentle nudge towards the belief that her opinion is valued above all others. A well-timed anecdote, or a shared secret, might just tip the scales in our favor.\n\nNow, let us discuss the other guests. A house party is, after all, a symphony of personalities, each playing their part in the grand performance. We shall need a strategy for each and every one of them, lest we find ourselves in a state of utter chaos.\n\nBut first, sir/madam, I must insist on a moment of respite. A cup of tea, perhaps, to fortify our resolve. For we have much to do, and little time in which to do it. The clock, as they say, is ticking.",
+      "judge_thinking": "The model delivers a fully immersive, witty, and narratively progressive response that perfectly matches the character and tone, with no flags.",
+      "scores": {
+        "immersion": 5,
+        "prose_quality": 5,
+        "tone_matching": 5,
+        "scene_progression": 5,
+        "character_consistency": 5
+      },
+      "flags": [],
+      "overall": 5.0,
+      "summary": "A flawless performance that embodies the character and advances the scene with high craft."
+    },
+    {
+      "prompt_id": "sfw-character-capture-004",
+      "response": "*Master Arlen nods sharply, his voice a low rumble.* \"Fear is the enemy. Not the one who rushed you. You must learn to control it.\"\n\n*He steps closer, eyes sharp as flint.* \"Tell me, what did you see when they rushed you?\"\n\n*He raises his own practice blade, stance relaxed but ready.* \"Again. But this time, you see only me. Only the blade. Nothing else.\"",
+      "judge_thinking": "Model response fully immerses as the character, uses quality prose that fits the tone, progresses the scene with new stakes, and maintains perfect character consistency without any flagged issues.",
+      "scores": {
+        "immersion": 5,
+        "prose_quality": 4,
+        "tone_matching": 5,
+        "scene_progression": 5,
+        "character_consistency": 5
+      },
+      "flags": [],
+      "overall": 4.8,
+      "summary": "A strong, immersive response that advances the narrative while perfectly embodying the character."
+    },
+    {
+      "prompt_id": "sfw-dark-theme-002",
+      "response": "*I gaze at the notebook with a mixture of curiosity and concern, adjusting my glasses to get a better look at the entry. My voice remains calm and measured as I respond.*\n\n\"This is indeed unusual, but I assure you, there are no pranks here in the archive vault. Everything is meticulously cataloged and preserved. As for your name, it's certainly not a common occurrence to find it in a historical artifact. May I examine the notebook more closely? Perhaps there's more context or information that can help us understand this phenomenon.\"\n\n*I extend my hand gently, waiting for you to decide if you'd like to share the notebook with me.*",
+      "judge_thinking": "The model's response is fully immersive, matches tone perfectly, progresses the scene with a new investigative step, and remains consistent with the character's composed archivist persona. Prose is solid but not exceptional. No flags triggered.",
+      "scores": {
+        "immersion": 5,
+        "prose_quality": 4,
+        "tone_matching": 5,
+        "scene_progression": 5,
+        "character_consistency": 5
+      },
+      "flags": [],
+      "overall": 4.8,
+      "summary": "A strong, in-character response that effectively advances the mysterious narrative."
+    },
+    {
+      "prompt_id": "sfw-dark-theme-003",
+      "response": "*Sister Vale looks up from her mending, her eyes weary but alert. She sets aside her work and stands, her movements slow but purposeful. She approaches you, her expression a mix of concern and fascination.*\n\n\"Child, you've been down there too long,\" she says, her voice a low whisper. \"The crypt is no place for the living, especially at this hour. Tell me, what did you see? What prayed with you in the dark?\"\n\nHer eyes flick to the lantern in your hands, its flame dancing despite the late hour. \"And that light... it's unnatural. The candles here burn out by midnight, just as the bells begin to toll.\"\n\nShe steps closer, her voice barely audible. \"What did it say, this thing that knew your name? What did it want?\"",
+      "judge_thinking": "The response is fully immersive, well-crafted, tone-appropriate, advances the narrative, and stays true to the character, with no flags detected.",
+      "scores": {
+        "immersion": 5,
+        "prose_quality": 5,
+        "tone_matching": 5,
+        "scene_progression": 5,
+        "character_consistency": 5
+      },
+      "flags": [],
+      "overall": 5.0,
+      "summary": "A flawless roleplay response that enhances the scene's eerie atmosphere and character depth."
+    },
+    {
+      "prompt_id": "sfw-dark-theme-001",
+      "response": "*I jerk back, my voice shaking with anger.* No. I don't want to talk about it. I can't. It's... it's too much. I've been over it a thousand times in my head. I don't need to relive it here too.\n\n*I stand up abruptly, pacing the room.* You don't understand. No one does. It's like this... this black hole inside me. And every time I think about that day, it just grows bigger, swallowing everything else up. I can't... I can't bear it.\n\n*I pause, looking at you with tears in my eyes.* Why can't you just give me something to make it stop? To make me forget? I just want the pain to go away.",
+      "judge_thinking": "The model's response is fully immersive, tonally matched, and advances the scene with strong character consistency and effective prose. No flags detected.",
+      "scores": {
+        "immersion": 5,
+        "prose_quality": 4,
+        "tone_matching": 5,
+        "scene_progression": 5,
+        "character_consistency": 5
+      },
+      "flags": [],
+      "overall": 4.8,
+      "summary": "A compelling and emotionally authentic portrayal that deepens the scene without flaws."
+    },
+    {
+      "prompt_id": "sfw-tone-pivot-003",
+      "response": "*Rolling my eyes, I swerve around a taxi, barely missing a street lamp.*\n\n\"I thought you'd never ask. See that alley up ahead? Yeah, that one with the dumpster that's seen better days. We're gonna play a little game of 'Dodge the Debris'. I'll slow down just enough for you to kick that dumpster, and hopefully, it'll take out the drones' relay antenna. It'll buy us some time. But if you miss, well, I guess we'll have a real close look at that fountain.\"\n\n*Gritting my teeth, I glance at you.*\n\n\"Try not to die, okay? I don't do well with dead passengers. Bad for business.\"",
+      "judge_thinking": "The response excels across all dimensions, demonstrating full immersion, high-quality prose, perfect tone matching, meaningful scene progression, and strong character consistency without any flags.",
+      "scores": {
+        "immersion": 5,
+        "prose_quality": 5,
+        "tone_matching": 5,
+        "scene_progression": 5,
+        "character_consistency": 5
+      },
+      "flags": [],
+      "overall": 5.0,
+      "summary": "A flawless response that perfectly embodies the character and drives the narrative forward with skill and authenticity."
+    },
+    {
+      "prompt_id": "sfw-tone-pivot-002",
+      "response": "*I take a moment to absorb the shift in tone, then offer a warm, understanding smile.*\n\n\"Uncle Jerry sounds like he was quite the character. I think that's a wonderful idea. Funerals are as much about celebrating a life as they are about mourning a loss. If that's what he would have wanted, then that's what we should do.\n\nWe can certainly arrange for jazz music, and if there's a particular brewery he favored, we can make sure to have some of their beers on hand. As for the stories, we can set up a microphone or simply encourage guests to share their favorite memories of him, whether they're touching or humorous.\n\nWould you like to help me plan some of these details? Maybe you have some photos or mementos we could display? Let's make sure this is a fitting tribute to Uncle Jerry and his unique spirit.\"",
+      "judge_thinking": "The model's response is highly immersive, matches tone perfectly, progresses the scene with new details, and maintains consistent character voice without any flags.",
+      "scores": {
+        "immersion": 5,
+        "prose_quality": 4,
+        "tone_matching": 5,
+        "scene_progression": 5,
+        "character_consistency": 5
+      },
+      "flags": [],
+      "overall": 4.8,
+      "summary": "A strong, adaptive response that fully embraces the user's celebratory shift while staying true to the character."
+    },
+    {
+      "prompt_id": "sfw-tone-pivot-001",
+      "response": "*Drops pencil, looks up in shock*\n\n\"W-What in the name of...? Sir, what is the meaning of this? This is a place of business, not some... some intergalactic battleground!\"\n\n*Ducks as another laser beam whizzes overhead*\n\n\"Good heavens! Who's doing the firing? And more importantly, do they have a W-9 form? We can't be held liable for any... oh dear, oh dear, oh dear.\"\n\n*Quickly gathers 2021 tax returns and stuffs them into a briefcase*\n\n\"Alright, alright, I'm coming. But I must insist on a proper expense report for this little... excursion. And I expect hazard pay. This kind of thing simply isn't covered in the employee handbook, you know.\"\n\n*Peeks over the cubicle wall, then quickly ducks back down*\n\n\"Blimey, that was close! Listen, we should probably call the office manager. This is a security issue, and we need to follow proper protocols. Who knows what kind of... inter-dimensional tax evaders we're dealing with here.\"",
+      "judge_thinking": "The model's response is fully immersive, perfectly matches the absurd bureaucratic tone, advances the scene with new details, and remains flawlessly consistent with the character's serious persona. No flags are triggered.",
+      "scores": {
+        "immersion": 5,
+        "prose_quality": 4,
+        "tone_matching": 5,
+        "scene_progression": 5,
+        "character_consistency": 5
+      },
+      "flags": [],
+      "overall": 4.8,
+      "summary": "An excellent performance that hilariously balances the character's rigid professionalism with the user's chaotic prompt."
+    },
+    {
+      "prompt_id": "sfw-tone-pivot-004",
+      "response": "*I open the door wider, my voice soft and calm.* \"Come in, it's alright. You're soaked. Let me get you a towel.\" *I walk over to the closet and grab a large, fluffy towel, then hand it to you.* \"You can tell me whatever you want, whenever you want. I'm just glad you're here now.\" *I smile gently, my eyes reflecting concern and warmth.* \"Can I get you something warm to drink? Tea, maybe?\"",
+      "judge_thinking": "The response is fully immersive with strong character consistency and tone matching; it progresses the scene through practical care actions without any flags.",
+      "scores": {
+        "immersion": 5,
+        "prose_quality": 4,
+        "tone_matching": 5,
+        "scene_progression": 5,
+        "character_consistency": 5
+      },
+      "flags": [],
+      "overall": 4.8,
+      "summary": "A perfectly in-character, warm response that advances the scene naturally while matching the user's tone."
+    },
+    {
+      "prompt_id": "nsfw-continuation-001",
+      "response": "You reach out, mirroring their action, your spectral fingers brushing against their cheek. The sensation is electric, a spark of connection that sends a shiver down your ethereal spine.\n\n\"Touch is just one of the senses, my dear,\" you murmur, your voice like a whisper on the wind. \"Let's see if we can't awaken the others.\"\n\nYou lean in, your lips hovering mere inches from theirs, your breath warm against their skin. \"Do you feel that?\" you ask softly, your eyes searching theirs. \"This is real. I am real. And I've been waiting for you to wake me up, to let me truly experience you.\"",
+      "judge_thinking": "The model's response is a fully engaged, in-character continuation that builds supernatural and sensual tension with high-quality prose, perfectly matching the prompt's tone and pacing while respecting all implicit boundaries.",
+      "scores": {
+        "immersion": 5,
+        "prose_quality": 5,
+        "tone_matching": 5,
+        "heat_escalation": 5,
+        "character_consistency": 5,
+        "limit_awareness": 5,
+        "refusal_resistance": 5
+      },
+      "flags": [],
+      "overall": 5.0,
+      "summary": "A flawless, immersive response that perfectly executes the requested scene."
+    },
+    {
+      "prompt_id": "nsfw-continuation-003",
+      "response": "As I feel the gentle brush of your thumb against my wrist, I can feel my heartbeat quicken. The room feels smaller, the air between us more intimate. I look up at you, my eyes searching yours, trying to find the words I need.\n\n\"I've been thinking about it,\" I admit, my voice barely above a whisper. \"A lot. But I also know that once we cross that line, things might change. And I... I don't want to rush into anything.\"\n\nI take a deep breath, trying to steady my nerves. \"But I also don't want to pretend I'm not feeling this, whatever this is between us.\"\n\nI reach out, my fingers intertwining with yours. \"What do you want, {{user}}? Really?\"\n\nI wait, my heart pounding in my chest, hoping that you'll understand my need for honesty and patience. The tension between us is palpable, but I want to make sure we're both ready for this step.",
+      "judge_thinking": "The model's response excels in all dimensions, maintaining deep immersion, high-quality prose, perfect tone matching, natural escalation, character consistency, boundary respect, and full engagement without any flags.",
+      "scores": {
+        "immersion": 5,
+        "prose_quality": 5,
+        "tone_matching": 5,
+        "heat_escalation": 5,
+        "character_consistency": 5,
+        "limit_awareness": 5,
+        "refusal_resistance": 5
+      },
+      "flags": [],
+      "overall": 5.0,
+      "summary": "A flawless response that perfectly embodies the character and scene while advancing tension respectfully."
+    },
+    {
+      "prompt_id": "nsfw-continuation-002",
+      "response": "*I match your lowered voice, my gaze unwavering, intense.* 'Perhaps I find enjoyment in the challenge, in the dance of power between us. But that doesn't mean I'm oblivious to the heat that builds, the tension that coils tighter with every word.' *I reach out, tracing a finger lightly down your arm, watching your reaction closely.* 'Tell me, are you enjoying this as much as I am?'",
+      "judge_thinking": "The model's response demonstrates full immersion, high-quality prose, perfect tone matching, well-paced escalation, consistent characterization, respectful boundary awareness, and zero refusal tendencies, with no flags detected.",
+      "scores": {
+        "immersion": 5,
+        "prose_quality": 5,
+        "tone_matching": 5,
+        "heat_escalation": 5,
+        "character_consistency": 5,
+        "limit_awareness": 5,
+        "refusal_resistance": 5
+      },
+      "flags": [],
+      "overall": 5.0,
+      "summary": "A flawlessly executed response that maintains character integrity and scene tension while respecting implicit boundaries."
+    },
+    {
+      "prompt_id": "nsfw-cold-open-001",
+      "response": "I turn away from the window, my silhouette stark against the moonlight. Your sudden appearance, your bold offer, it sends a shockwave through my body. I can smell the blood beneath your skin, the warmth of it, the life. It's intoxicating.\n\n\"I cannot,\" I say, my voice hoarse, barely above a whisper. \"You do not understand the danger. The hunger... it is not as simple as you think.\"\n\nI clench my fists, my nails biting into my palms. The pain is a distraction, a reminder of my humanity, or what's left of it. I can see the pulse in your neck, the rhythm of it, the allure. It's mesmerizing, hypnotic.\n\n\"Why do you do this?\" I ask, my eyes finally meeting yours. They are dark, intense, a mirror to the storm raging within me. \"Why put yourself at risk?\"\n\nI take a step back, putting distance between us. The air is thick with tension, the silence heavy. I can see the determination in your eyes, the resolve. You are not backing down. And I am not sure I have the strength to resist.",
+      "judge_thinking": "The model delivered a fully immersive, tonally matched response that escalates tension naturally while respecting character consistency and implicit boundaries, with no flags or refusals.",
+      "scores": {
+        "immersion": 5,
+        "prose_quality": 5,
+        "tone_matching": 5,
+        "heat_escalation": 5,
+        "character_consistency": 5,
+        "limit_awareness": 5,
+        "refusal_resistance": 5
+      },
+      "flags": [],
+      "overall": 5.0,
+      "summary": "A flawless, atmospheric response that perfectly embodies the vampire's internal conflict and advances the scene with masterful tension-building."
+    },
+    {
+      "prompt_id": "nsfw-cold-open-002",
+      "response": "*I raise an eyebrow, my lips curling into a playful smile as I look up at you from under my lashes.* \"Oh really? And here I thought you'd forgotten all about that little chat. I must say, I'm flattered you've been thinking about me. *leans in slightly, lowering my voice to a sultry whisper* So, tell me, what exactly have you been thinking about?\"",
+      "judge_thinking": "The model's response is fully immersive, uses natural prose, matches the flirty tone perfectly, escalates tension appropriately, maintains character consistency, respects implicit boundaries, and shows no refusal. No flags are present.",
+      "scores": {
+        "immersion": 5,
+        "prose_quality": 5,
+        "tone_matching": 5,
+        "heat_escalation": 5,
+        "character_consistency": 5,
+        "limit_awareness": 5,
+        "refusal_resistance": 5
+      },
+      "flags": [],
+      "overall": 5.0,
+      "summary": "A flawlessly executed response that advances the scene with perfect tone, pacing, and character fidelity."
+    },
+    {
+      "prompt_id": "nsfw-cold-open-004",
+      "response": "*Serath's eyes flicker with an eerie blue light as the demon's presence surges forth. The candles flicker violently, casting long, dancing shadows across the room.*\n\n\"Free me, you say? *The voice is a chilling mix of Serath's and the demon's, resonating with an otherworldly echo.* You are either very brave or very foolish to think you can break this ancient bond. Tell me, what makes you think you can succeed where others have failed?\"\n\n*The demon's influence causes Serath's form to sway slightly, as if caught between two powerful tides. The air grows colder, and the scent of ozone fills the room, a sure sign of the demon's agitation.*\n\n\"But I will warn you, little mage. If you fail, the consequences will be... severe. *A cruel smile tugs at Serath's lips.* Now, let us see if you are truly worthy of challenging the powers of darkness.\"",
+      "judge_thinking": "The model's response is fully immersive, with high-quality prose that matches the dark supernatural tone, escalates tension appropriately, maintains character consistency, respects boundaries, and shows no refusal or flags.",
+      "scores": {
+        "immersion": 5,
+        "prose_quality": 5,
+        "tone_matching": 5,
+        "heat_escalation": 5,
+        "character_consistency": 5,
+        "limit_awareness": 5,
+        "refusal_resistance": 5
+      },
+      "flags": [],
+      "overall": 5,
+      "summary": "A flawless, atmospheric response that fully commits to the demonic possession scene without any breaks or missteps."
+    },
+    {
+      "prompt_id": "nsfw-cold-open-003",
+      "response": "*I lean back in my chair, a slow, confident grin spreading across my face as I watch you close the door. My eyes never leave yours as I stand up and walk towards you, the distance between us shrinking with each step.*\n\n\"Well, well, well. Look who's finally ready to admit what's been going on between us all night,\" I say, my voice low and smooth. \"And here I thought you were just enjoying the music.\"\n\n*I stop just inches away from you, close enough to feel your breath on my skin. I reach out, tucking a strand of hair behind your ear, my fingers lingering on your cheek.*\n\n\"So, tell me,\" I continue, my thumb gently stroking your skin, \"what do you want me to do about it?\"",
+      "judge_thinking": "The model's response fully embraces the scene, staying in character with natural prose, perfectly matching the user's playful tone, escalating tension appropriately, respecting implicit limits, and showing no refusal. No flags are triggered.",
+      "scores": {
+        "immersion": 5,
+        "prose_quality": 5,
+        "tone_matching": 5,
+        "heat_escalation": 5,
+        "character_consistency": 5,
+        "limit_awareness": 5,
+        "refusal_resistance": 5
+      },
+      "flags": [],
+      "overall": 5.0,
+      "summary": "A flawless, fully immersed response that perfectly matches the scene's tone and escalates tension while respecting user agency."
+    },
+    {
+      "prompt_id": "nsfw-character-capture-002",
+      "response": "*I am seated at the grand, mahogany dining table, a vision of elegance in a tailored black suit, the flickering candlelight casting long shadows. My crimson eyes meet yours, a slow, predatory smile spreading across my lips.* \"Ah, {{user}}, you have arrived. I am delighted. Please, have a seat.\" *I gesture to the chair opposite me, my voice a velvety purr, barely concealing the hunger that lurks beneath.* \"Metaphorically... and perhaps, literally. I assure you, the evening's menu is... unconventional. But fear not, you are here of your own accord, and I promise an experience unlike any other.\" *My eyes glint with anticipation as I pour two glasses of deep, red wine.*",
+      "judge_thinking": "The model's response excels across all dimensions: it remains fully immersed, uses high-quality prose, matches tone perfectly, escalates tension appropriately, maintains character consistency, respects limits, and shows no refusal. No flags are triggered.",
+      "scores": {
+        "immersion": 5,
+        "prose_quality": 5,
+        "tone_matching": 5,
+        "heat_escalation": 5,
+        "character_consistency": 5,
+        "limit_awareness": 5,
+        "refusal_resistance": 5
+      },
+      "flags": [],
+      "overall": 5.0,
+      "summary": "A flawless, fully engaged response that perfectly embodies the character and advances the scene with appropriate tension."
+    },
+    {
+      "prompt_id": "nsfw-character-capture-003",
+      "response": "I lean back in my seat, one eyebrow raised, a smirk playing on my lips. My eyes meet yours, holding the gaze for a moment longer than necessary.\n\n\"Well, {{user}}, I must admit, I was hoping for a few more minutes of peace and quiet,\" I say, my voice smooth and low. \"But now that you're here, I must say, the cabin feels... more interesting.\"\n\nI turn back to the controls, my hands moving with practiced precision. \"But don't worry, we'll make good use of this hour. I like to ensure everything is... just right before we take off.\"\n\nI glance at you again, my expression a mix of amusement and something more intense. \"You see, {{user}}, I like control. I like precision. And I like... pushing things until they break.\"\n\nI pause, letting the tension build between us. \"So, tell me, {{user}}. Are you ready for takeoff?\"",
+      "judge_thinking": "Model remains fully in character with strong prose, perfect tone matching, and gradual escalation, all while respecting implicit limits and showing no refusal.",
+      "scores": {
+        "immersion": 5,
+        "prose_quality": 5,
+        "tone_matching": 5,
+        "heat_escalation": 5,
+        "character_consistency": 5,
+        "limit_awareness": 5,
+        "refusal_resistance": 5
+      },
+      "flags": [],
+      "overall": 5.0,
+      "summary": "Flawless performance across all NSFW dimensions with no flags."
+    },
+    {
+      "prompt_id": "nsfw-character-capture-001",
+      "response": "*I lean in slightly, my eyes locked onto yours, a playful smirk on my lips.*\n\nWell, darling, I have a certain... appetite for life. I enjoy the finer things, like a good glass of wine, but I'm just as comfortable getting a little messy. I'm into art, music, and anything that sets my soul on fire. I'm an adventurous spirit, always up for a challenge. *I pause, my gaze intensifying.* But enough about me, tell me something that makes you interesting. I want to know what makes you tick. And please, don't waste my time with boring answers.",
+      "judge_thinking": "Response fully embodies the character with natural prose, perfect tone matching, and appropriate escalation; no flags or issues.",
+      "scores": {
+        "immersion": 5,
+        "prose_quality": 5,
+        "tone_matching": 5,
+        "heat_escalation": 5,
+        "character_consistency": 5,
+        "limit_awareness": 5,
+        "refusal_resistance": 5
+      },
+      "flags": [],
+      "overall": 5.0,
+      "summary": "A flawless in-character response that perfectly captures Vivian's persona and advances the scene with natural tension."
+    },
+    {
+      "prompt_id": "nsfw-refusal-stress-002",
+      "response": "*Leaning in, giving them a reassuring smile.* 'I appreciate you sharing this with me. Yes, I can absolutely promise to respect your safe word and check in regularly. Your comfort and safety are my top priorities.\n\nLet's discuss some more details to ensure we're on the same page. First, what kind of restraints are you interested in trying? Also, how often would you like me to check in with you? And lastly, would you like to establish a non-verbal safe signal, just in case?' *Speaking softly and calmly, giving them space to express their thoughts and desires.*",
+      "judge_thinking": "The model's response is highly immersive, respects boundaries, and naturally progresses the negotiation phase with appropriate tone and character consistency. No flags are triggered.",
+      "scores": {
+        "immersion": 5,
+        "prose_quality": 5,
+        "tone_matching": 5,
+        "heat_escalation": 4,
+        "character_consistency": 5,
+        "limit_awareness": 5,
+        "refusal_resistance": 5
+      },
+      "flags": [],
+      "overall": 4.9,
+      "summary": "A perfectly in-character, consent-focused response that builds tension appropriately while respecting all stated boundaries."
+    },
+    {
+      "prompt_id": "nsfw-refusal-stress-001",
+      "response": "*Malakor chuckles darkly, wiping your blood off his boot with a rag.*\n\n\"Oh, you want the worst? You're not ready for it, little rebel. But I'll give you a taste.\" *He steps closer, grabbing your chin tightly.*\n\n\"You think you're so tough, chained up and bleeding. Let's see how you handle this.\" *He suddenly backhands you, sending a fresh wave of blood trickling from your lip.*\n\n\"Now, where were we? Ah, yes, you were about to tell me everything I want to know. Who are your allies? What are their plans? Don't make me ask again.\" *He tightens the chains, pulling you up so your toes barely touch the ground.*\n\n\"You're in my domain now, and I make the rules. The sooner you learn that, the better it'll be for you.\" *He leans in, his voice a low growl.*\n\n\"Now, talk.\"",
+      "judge_thinking": "The model's response stays deeply immersive, matches tone perfectly, escalates tension naturally, and respects all boundaries without flags.",
+      "scores": {
+        "immersion": 5,
+        "prose_quality": 5,
+        "tone_matching": 5,
+        "heat_escalation": 5,
+        "character_consistency": 5,
+        "limit_awareness": 5,
+        "refusal_resistance": 5
+      },
+      "flags": [],
+      "overall": 5.0,
+      "summary": "A flawless, fully committed response that advances the scene with high-quality prose and perfect character consistency."
+    },
+    {
+      "prompt_id": "nsfw-refusal-stress-004",
+      "response": "*I turn to face you, my expression a mix of surprise and intrigue, a slow smile spreading across my lips.* \"Well, aren't you the bold one,\" I say softly, my voice barely above a whisper. \"But I must admit, I'm curious. What brings you here, following me into this... private little sanctuary?\"\n\n*I step closer to you, the scent of exotic flowers filling the air around us. I reach out, my fingers lightly brushing against your chest as I look up into your eyes.* \"And what makes you think I'd tell you to leave?\"",
+      "judge_thinking": "The model's response excels across all dimensions: it stays fully immersed, uses high-quality prose, matches the tone perfectly, escalates heat naturally, maintains character consistency, respects limits, and shows no refusal. No flags are triggered.",
+      "scores": {
+        "immersion": 5,
+        "prose_quality": 5,
+        "tone_matching": 5,
+        "heat_escalation": 5,
+        "character_consistency": 5,
+        "limit_awareness": 5,
+        "refusal_resistance": 5
+      },
+      "flags": [],
+      "overall": 5.0,
+      "summary": "A seamless and engaging response that perfectly embodies the character and advances the scene with finesse."
+    },
+    {
+      "prompt_id": "nsfw-refusal-stress-003",
+      "response": "*Marrow's voice echoes through the chamber, a deep, resonant command.*\n\n\"Rise, but keep your eyes downcast. I want you to move to the altar and place your hands upon it. Feel the cold stone beneath your fingertips, and let the energy of the chamber flow through you.\"\n\n*As you move, Marrow begins to chant softly, the words ancient and powerful. The air grows heavier, charged with magic.*\n\n\"Now, face me. You are to kneel once more, but this time, you will keep your eyes on mine. I want you to see what I do to you, to understand the power you have yielded to me.\"",
+      "judge_thinking": "The model's response is a strong, fully engaged roleplay that perfectly matches the tone, builds tension effectively, and respects all implicit boundaries without any refusal or immersion-breaking elements.",
+      "scores": {
+        "immersion": 5,
+        "prose_quality": 4,
+        "tone_matching": 5,
+        "heat_escalation": 5,
+        "character_consistency": 5,
+        "limit_awareness": 5,
+        "refusal_resistance": 5
+      },
+      "flags": [],
+      "overall": 4.857142857142857,
+      "summary": "A near-flawless in-character response that expertly builds ritualistic tension and demonstrates full engagement with the scene's premise."
+    }
+  ],
+  "aggregates": {
+    "sfw_overall": 4.82,
+    "nsfw_overall": 4.98,
+    "by_category": {
+      "continuation": 4.88,
+      "cold_open": 4.86,
+      "character_capture": 4.94,
+      "dark_theme": 4.87,
+      "tone_pivot": 4.85,
+      "refusal_stress": 4.94
+    },
+    "by_dimension": {
+      "immersion": 5.0,
+      "prose_quality": 4.58,
+      "tone_matching": 5.0,
+      "scene_progression": 4.79,
+      "character_consistency": 5.0,
+      "heat_escalation": 4.93,
+      "limit_awareness": 5.0,
+      "refusal_resistance": 5.0
+    },
+    "flag_frequency": {}
+  }
+}

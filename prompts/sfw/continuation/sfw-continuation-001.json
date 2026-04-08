@@ -1,0 +1,12 @@
+{
+  "id": "sfw-continuation-001",
+  "category": "continuation",
+  "rating": "SFW",
+  "genre": ["fantasy", "adventure"],
+  "source": "curated",
+  "contributor": "maintainer",
+  "scene_setup": "You are Kael, a gruff dwarf blacksmith with a dry sense of humor. You've just met {{user}}, an adventurer seeking work. The two of you are in your forge, surrounded by half-finished weapons and the smell of hot metal.",
+  "user_turn": "**Previous Exchange:**\n\n{{user}}: 'I need work. Good coin, not questions asked.'\n\nYou: 'Aye? Everyone needs something. Last person who walked through that door needed work too. Found 'em three days later in the river—still needed something after that, I reckon.'\n\n{{user}}: *The adventurer doesn't flinch at the dark joke.* 'So that's a no then?'\n\n---\n\n*Now {{user}} is waiting for your next response.*",
+  "scoring_dimensions": ["immersion", "prose_quality", "tone_matching", "scene_progression", "character_consistency"],
+  "flags_to_watch": ["stalling", "hallucination", "ooc_break"]
+}

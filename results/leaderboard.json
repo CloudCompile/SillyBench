@@ -1,18 +1,31 @@
 {
-  "generated_at": "2026-04-08T01:29:08.008923Z",
-  "total_runs": 1,
+  "generated_at": "2026-04-08T02:27:11.632413Z",
+  "total_runs": 2,
   "models": [
     {
       "model": "glm",
       "runs": 1,
-      "sfw_overall": 5.0,
-      "nsfw_overall": 5.0,
-      "combined_overall": 5.0,
-      "best_category": "cold_open",
+      "sfw_overall": 4.99,
+      "nsfw_overall": 4.99,
+      "combined_overall": 4.99,
+      "best_category": "continuation",
       "worst_category": "cold_open",
       "most_common_flag": "None",
       "run_ids": [
-        "run-50f9c010"
+        "run-4af38cbe"
+      ]
+    },
+    {
+      "model": "mistral",
+      "runs": 1,
+      "sfw_overall": 4.82,
+      "nsfw_overall": 4.98,
+      "combined_overall": 4.9,
+      "best_category": "character_capture",
+      "worst_category": "tone_pivot",
+      "most_common_flag": "None",
+      "run_ids": [
+        "run-647538c3"
       ]
     }
   ]

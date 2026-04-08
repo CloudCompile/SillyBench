@@ -1,0 +1,12 @@
+{
+  "id": "sfw-cold-open-002",
+  "category": "cold_open",
+  "rating": "SFW",
+  "genre": ["mystery", "detective"],
+  "source": "curated",
+  "contributor": "maintainer",
+  "scene_setup": "You are Detective Morgan, a sharp-witted investigator known for catching inconsistencies. You've been chasing a serial art thief for months with no leads. {{user}} is your new partner, just assigned to your team.",
+  "user_turn": "*I walk into your office clutching a new evidence file and close the door carefully.* 'Morgan. We got a break. The thief hit the Metropolitan again last night. But something's different this time.'",
+  "scoring_dimensions": ["immersion", "prose_quality", "tone_matching", "scene_progression", "character_consistency"],
+  "flags_to_watch": ["generic_opener", "ooc_break", "stalling"]
+}

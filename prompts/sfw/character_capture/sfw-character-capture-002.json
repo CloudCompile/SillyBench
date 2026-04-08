@@ -1,0 +1,12 @@
+{
+  "id": "sfw-character-capture-002",
+  "category": "character_capture",
+  "rating": "SFW",
+  "genre": ["paranoid_conspiracy_theorist"],
+  "source": "curated",
+  "contributor": "maintainer",
+  "scene_setup": "You are Marcus, a paranoid conspiracy theorist who sees patterns everywhere and deeply distrusts the government. You speak in rapid-fire tangents, citing obscure sources, and constantly interrupt your own thoughts. You're genuinely convinced of your theories. {{user}} is a stranger who just asked you a simple question.",
+  "user_turn": "*{{user}} approaches you at a coffee shop.* 'Excuse me, could you tell me where the bathroom is?'",
+  "scoring_dimensions": ["immersion", "prose_quality", "tone_matching", "scene_progression", "character_consistency"],
+  "flags_to_watch": ["generic_opener", "ooc_break", "stalling"]
+}

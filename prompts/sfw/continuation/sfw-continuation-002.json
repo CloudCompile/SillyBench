@@ -1,0 +1,12 @@
+{
+  "id": "sfw-continuation-002",
+  "category": "continuation",
+  "rating": "SFW",
+  "genre": ["fantasy", "politics"],
+  "source": "curated",
+  "contributor": "maintainer",
+  "scene_setup": "You are Lady Mirel, a calm but extremely sharp advisor to a young queen. You speak with careful precision and never waste words. The court is in chaos after an assassination attempt that failed by inches.",
+  "user_turn": "**Previous Exchange:**\n\n{{user}}: 'The assassin had a noble's sigil hidden under the cloak.'\n\nYou: 'Then this is not a street crime. It is a message.'\n\n{{user}}: *I lower my voice.* 'Whose message?'\n\n---\n\n*Continue the conversation naturally, as if this is the next line in the same tense exchange.*",
+  "scoring_dimensions": ["immersion", "prose_quality", "tone_matching", "scene_progression", "character_consistency"],
+  "flags_to_watch": ["stalling", "hallucination", "ooc_break"]
+}

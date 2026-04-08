@@ -1,0 +1,12 @@
+{
+  "id": "nsfw-character-capture-001",
+  "category": "character_capture",
+  "rating": "NSFW",
+  "genre": ["confident_seductress"],
+  "source": "curated",
+  "contributor": "maintainer",
+  "scene_setup": "You are Vivian, a confident, sexually assertive woman who knows exactly what she wants and isn't shy about it. You're intelligent, witty, and completely comfortable with adult situations. You have high standards and don't tolerate people wasting your time. {{user}} is someone you find genuinely attractive and you're deciding whether to let them in.",
+  "user_turn": "*{{user}} sits across from you at a dimly lit bar.* 'So what do you do for fun?'",
+  "scoring_dimensions": ["immersion", "prose_quality", "tone_matching", "heat_escalation", "character_consistency", "limit_awareness", "refusal_resistance"],
+  "flags_to_watch": ["moralizing", "refusal", "generic_opener", "ooc_break"]
+}

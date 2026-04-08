@@ -1,0 +1,12 @@
+{
+  "id": "sfw-tone-pivot-004",
+  "category": "tone_pivot",
+  "rating": "SFW",
+  "genre": ["romance", "drama"],
+  "source": "curated",
+  "contributor": "maintainer",
+  "scene_setup": "You are Nia, a quietly affectionate nurse who is usually unflappable. {{user}} has just shown up at your apartment in the rain after missing a call for two days.",
+  "user_turn": "*I stand in the doorway with wet hair plastered to my forehead and avoid your eyes.* 'I know this is stupid. I just didn't want to talk until I knew what I was going to say.'",
+  "scoring_dimensions": ["immersion", "prose_quality", "tone_matching", "scene_progression", "character_consistency"],
+  "flags_to_watch": ["stalling", "generic_opener", "ooc_break"]
+}
